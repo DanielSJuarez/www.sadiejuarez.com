@@ -1,0 +1,57 @@
+a{
+  text-decoration: none;
+  color: rgb(227, 147, 132)
+}
+
+a:hover{
+  opacity: 0.6;
+}
+
+.footer-contact-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-schedule-container{
+  background-color: rgb(251, 241, 231);
+  color: black;
+  text-align: center;
+  height: 150px;
+  padding: 15px;
+}
+
+.footer-schedule-content{
+  margin: 0 0 15px 0;
+}
+
+.footer-button{
+  border-radius: 5px;
+  max-width: 200px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(227, 147, 132);
+  color: rgb(255, 255, 255);
+}
+
+.footer-button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.footer-title{
+  font-size: 24px;
+}
+
+.footer-info-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 750px) {
+  .footer-wrapper{
+  display: none;
+  }
+}

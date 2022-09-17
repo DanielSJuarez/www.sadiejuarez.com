@@ -1,0 +1,53 @@
+form{
+  max-width: 700px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+textarea{
+  width: 100%;
+}
+
+.contact-form-wrapper{
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.contact-form-container{
+  text-align: left;
+}
+
+.contact-form-title{
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.form-button{
+  border-radius: 5px;
+  max-width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(227, 147, 132);
+  color: rgb(255, 255, 255);
+}
+
+.form-button:hover{
+  opacity: 0.6;
+}
+
+@media (max-width: 750px) {
+  .contact-wrapper{
+  display: block;
+  }
+}

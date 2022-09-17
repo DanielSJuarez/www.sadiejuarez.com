@@ -1,0 +1,70 @@
+.quote-container{
+  position: relative;
+}
+
+.quote-content{
+  position: absolute;
+  width: 100px;
+}
+
+.home-services-item{
+  padding: 10px;
+}
+
+.header-img-container{
+  max-width: 100%;
+  margin: 20px;
+}
+
+.home-services-title{
+  font-size: 36px;
+}
+
+.home-services-header{
+  font-size: 24px;
+  margin: 10px;
+}
+
+.home-services-wrapper{
+  background-color: rgb(251, 241, 231);
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.home-services-container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.home-services-content{
+  color: black;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  line-height: 27px;
+}
+
+.learn-more-button{
+  margin: auto;
+}
+
+.review-container{
+  position: relative;
+  padding: 30px; 
+}
+
+.review-content{
+  position: absolute;
+  z-index: 1;
+}
+
+.image-container{
+  max-width: 400px;
+}
+
+@media (max-width: 750px) {
+  .home-services-container{
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+.contact-wrapper{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+@media (max-width: 750px) {
+  .contact-wrapper{
+  display: block;
+  }
+}
