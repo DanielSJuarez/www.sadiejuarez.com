@@ -15,6 +15,7 @@ function TopNav() {
 
     return (
       <div className='nav-wrapper'>
+        <div className='work-in-progress'>SITE WORK IN PROGRESS</div>
         <div className='nav-container'>
           <div className='nav-button' onClick={() => updatePageTitle({title: '', route: '/home', visible: false})}>Home</div>
           <div className='nav-button' onClick={() => updatePageTitle({title: 'About Me', route: '/about', visible: true})}>About Me</div>
